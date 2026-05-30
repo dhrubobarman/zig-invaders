@@ -1,0 +1,30 @@
+# ==========================================
+# Zig Build Artifacts & Caching
+# ==========================================
+# Default output directory for final binaries/libraries
+zig-out/
+zig-pkg/
+
+# Local build cache directory (contains intermediate compilation files)
+.zig-cache/
+
+# ==========================================
+# Development / Editor Specific
+# ==========================================
+# Zig Language Server (ZLS) local configurations
+zls.json
+.zls-cache/
+
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# Neovim / Vim swap and backup files
+*.swp
+*~
+.netrwhist
+
+# macOS specific system files
+.DS_Store
